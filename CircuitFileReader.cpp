@@ -31,7 +31,7 @@ bool CircuitFileReader::parseFile() {
 
     return true;
 }
-
+//
 std::vector<ComponentInfo> CircuitFileReader::getComponents() const {
     return components;
 }
