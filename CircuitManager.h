@@ -25,3 +25,4 @@ private:
 };
 
 #endif // CIRCUIT_MANAGER_H
+//
