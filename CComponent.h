@@ -43,7 +43,7 @@ public:
     // ... Additional methods specific to OrGate
 };
 
-// Derived class for XOR gate
+// Derived class for XOR gate.
 class XorGate : public CComponent {
 public:
     XorGate(const std::string& name);
