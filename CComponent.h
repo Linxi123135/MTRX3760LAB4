@@ -51,7 +51,7 @@ public:
     // ... Additional methods specific to XorGate
 };
 
-// Derived class for NOT gate
+// Derived class for NOT gate.
 class NotGate : public CComponent {
 public:
     NotGate(const std::string& name);
