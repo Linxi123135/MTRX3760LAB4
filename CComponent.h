@@ -27,7 +27,7 @@ private:
     std::string name;
 };
 
-// Derived class for AND gate
+// Derived class for AND gate.
 class AndGate : public CComponent {
 public:
     AndGate(const std::string& name);
