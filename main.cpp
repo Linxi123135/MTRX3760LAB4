@@ -24,7 +24,7 @@ int main() {
         circuitManager.connectComponents(info.sourceName, info.destName, info.pin);
     }
 
-    // Step 3: Run the simulation
+    // Step 3: Run the simulation.
     circuitManager.runSimulation();
 
     return 0;
