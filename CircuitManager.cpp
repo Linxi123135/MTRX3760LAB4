@@ -6,7 +6,7 @@ void CircuitManager::addComponent(CComponent* component) {
     components[component->getName()] = component;
 }
 
-// Connect two components
+// Connect two components********
 void CircuitManager::connectComponents(const std::string& sourceName, const std::string& destName, int pin) {
     if (components.find(sourceName) == components.end() || components.find(destName) == components.end()) {
         std::cerr << "Error: Invalid component names for connection.\n";
