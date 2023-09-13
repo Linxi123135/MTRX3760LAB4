@@ -35,7 +35,7 @@ public:
     // ... Additional methods specific to AndGate
 };
 
-// Derived class for OR gate
+// Derived class for OR gate.
 class OrGate : public CComponent {
 public:
     OrGate(const std::string& name);
