@@ -24,4 +24,4 @@ private:
     std::map<std::string, bool> signals;  // Signals for each component
 };
 
-#endif // CIRCUIT_MANAGER_H/
+#endif // CIRCUIT_MANAGER_H
