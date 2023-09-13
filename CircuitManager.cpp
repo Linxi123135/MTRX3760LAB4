@@ -22,7 +22,7 @@ void CircuitManager::runSimulation() {
     signals["A"] = true;
     signals["B"] = false;
     signals["Cin"] = true;
-
+//
     // Loop through all components and update their outputs based on their inputs
     for (const auto& kv : components) {
         const std::string& componentName = kv.first;
