@@ -10,7 +10,7 @@ int main() {
         return 1;
     }
 
-    // Step 2: Create and configure components and connections
+    // Step 2: Create and configure components and connections.
     CircuitManager circuitManager;
 
     auto componentsInfo = fileReader.getComponents();
