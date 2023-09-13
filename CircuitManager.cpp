@@ -16,7 +16,7 @@ void CircuitManager::connectComponents(const std::string& sourceName, const std:
     signals[destName] = signals[sourceName];
 }
 
-// Run the simulation for Full Adder and Half Adder
+// Run the simulation for Full Adder and Half Adder.
 void CircuitManager::runSimulation() {
     // Assuming that the input signals are set (this is just an example)
     signals["A"] = true;
