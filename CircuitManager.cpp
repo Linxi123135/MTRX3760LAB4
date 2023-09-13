@@ -47,3 +47,4 @@ void CircuitManager::runSimulation() {
     std::cout << "Sum: " << signals["Sum"] << std::endl;
     std::cout << "Cout: " << signals["Cout"] << std::endl;
 }
+///end 
