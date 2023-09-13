@@ -98,3 +98,4 @@ bool NotGate::performLogic(const std::vector<bool>& inputs) {
 
     return (NewVal == LOGIC_HIGH);
 }
+//end 
