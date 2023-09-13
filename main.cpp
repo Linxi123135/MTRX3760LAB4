@@ -3,7 +3,7 @@
 #include <iostream>
 //********************************************************
 int main() {
-    // Step 1: Read the circuit description file
+    // Step 1: Read the circuit description file.
     CircuitFileReader fileReader("C:/1aA_Sydney/2023 S2/MTRX3760/Lab4/fulladder.txt");
     if (!fileReader.parseFile()) {
         std::cerr << "Failed to parse circuit description file." << std::endl;
