@@ -1,0 +1,40 @@
+# A Full Adder circuit
+
+# XOR gates for sum
+component xor sumXor0
+component xor sumXor1
+
+# AND gates for carry
+component and carryAnd0
+component and carryAnd1
+
+# OR gate for carry
+component or carryOr0
+
+# Wiring
+# Calculate A XOR B
+wire sumXor0 0 inwireA
+wire sumXor0 1 inwireB
+
+# Calculate (A XOR B) XOR Cin
+wire sumXor1 0 sumXor0
+wire sumXor1 1 inwireCin
+
+# Calculate A AND B
+wire carryAnd0 0 inwireA
+wire carryAnd0 1 inwireB
+
+# Calculate (A XOR B) AND Cin
+wire carryAnd1 0 sumXor0
+wire carryAnd1 1 inwireCin
+
+# Calculate Cout
+wire carryOr0 0 carryAnd0
+wire carryOr0 1 carryAnd1
+
+# Connect to tester
+testerOutput sumXor1 0       # Sum output
+testerOutput carryOr0 0      # Carry output
+testerInput inwireA          # Input A
+testerInput inwireB          # Input B
+testerInput inwireCin        # Input Cin
