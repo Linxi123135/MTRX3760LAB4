@@ -1,7 +1,7 @@
 #include "CircuitFileReader.h"
 #include <fstream>
 #include <sstream>
-
+//****************
 CircuitFileReader::CircuitFileReader(const std::string& filePath) : filePath(filePath) {}
 
 bool CircuitFileReader::parseFile() {
