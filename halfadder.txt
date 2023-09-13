@@ -1,0 +1,22 @@
+# A Half Adder circuit
+
+# XOR gate for sum
+component xor sumXor
+
+# AND gate for carry
+component and carryAnd
+
+# Wiring
+# Calculate A XOR B for Sum
+wire sumXor 0 inwireA
+wire sumXor 1 inwireB
+
+# Calculate A AND B for Cout
+wire carryAnd 0 inwireA
+wire carryAnd 1 inwireB
+
+# Connect to tester
+testerOutput sumXor 0       # Sum output
+testerOutput carryAnd 0     # Carry output
+testerInput inwireA         # Input A
+testerInput inwireB         # Input B
